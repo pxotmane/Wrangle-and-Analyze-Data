@@ -32,7 +32,7 @@ The final twitter_archive_master table contain 2223 observations with 13 columns
 
 ## Insights 
 ### Insight one: the most popular dog breed
-![](https://github.com/pxotmane/Wrangle-and-Analyze-Data/blob/master/images/popular_breed.png) 
+![the most popular dog breed](https://github.com/pxotmane/Wrangle-and-Analyze-Data/blob/master/images/popular_breed.png) 
 
 After analyzing 2223 observations got from the wrangled data process and plotting it, I notice that the Golden retriever dog breed is the popular dog breed inside the WeRateDogs community by 162 tweets.
 
