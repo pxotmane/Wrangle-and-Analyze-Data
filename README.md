@@ -59,6 +59,5 @@ As we can observe the number of tweets increase in November and December but the
 ## Conclusions
 Even a dog breed is very popular for the most tweeters don’t mean is the most favorited or retweeted by other users. The selection of a preferable dog breed is up to others criteria, which need a depth analysis with more variables.
 
-In other side, the increase of tweets number do not mean the increase of the visitors reaction for the tweeted dog breed. It can be explained by confusion of visitors for choosing the preferable dog breed when the number of tweets increase or the rate of dog breed tweets increasing is greater than the rate of favorite and retweet average increasing.
-
+In other side, the increase of tweets number do not mean the increase of the visitors reaction for the tweeted dog breed. It can be explained by confusion of visitors for choosing the preferable dog breed when the number of tweets increase or the rate of dog breed tweets increasing is greater than the rate of favorite and retweet average increasing.<br>
 Finally, the originality of humorist rating is what almost visitors prefer for rating the dogs, which mean is the asset of this twitter account.
