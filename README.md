@@ -22,14 +22,11 @@ After creating three data frame from the gathering data (twitter-archive-enhance
 
 ### Cleaning data 
 In this step, I tried to solve all issues found in the assessing step. The cleaning of each issue is performing on three steps: define, code and
-test.
-
+test.<br>
 Before starting the cleaning process, I make a copy of each table to avoid losing or changing the gathered data by mistake.
-For the missed values issues detected after the visualization assessing, I tried to extract more values for numerator and denominator ratings. Then, the more important quality problems that needed more work are cleaning the abnormal values of numerator rating and get the year, month also day in Twitter‐archive‐enhanced table.
-
+For the missed values issues detected after the visualization assessing, I tried to extract more values for numerator and denominator ratings. Then, the more important quality problems that needed more work are cleaning the abnormal values of numerator rating and get the year, month also day in Twitter‐archive‐enhanced table.<br>
 On the other hand, in the Predict table the most complicate quality issues are get just the right predict with high percentage prediction, also extract the dog images names. Beside this complicated issues, I performed some formatting tasks like capital letters, type of columns, deleting useless columns…
-Thereafter, they are two tidiness issues in this project; I merged all three tables in one table after melting the dog stages columns on one column. This two cleaning steps are for facilitation the analysis process after.
-
+Thereafter, they are two tidiness issues in this project; I merged all three tables in one table after melting the dog stages columns on one column. This two cleaning steps are for facilitation the analysis process after.<br>
 I debriefed 20 issues in this project but did not mean the final table is free of issues; the wrangling data is an iterative process in future needing data analysis process.
 The final twitter_archive_master table contain 2223 observations with 13 columns, point out same columns had not the same number of observations but not mean are a NaN observations.
 
@@ -41,8 +38,7 @@ After analyzing 2223 observations got from the wrangled data process and plottin
 Performing a mean calculation for 10 high‐retweeted dog breeds, I got that the Standard poodie dog breed is the most retweeted with an average of 7563.67 retweet followed by the Bedington terrier dog breed by 7299.50 retweet. Which is not the same as the first insight.
 
 ### Insight three: the dog breed get the most high favorite counting
-For this insight, I got that the Black‐and‐tan coongound dog breed is most favorite for the most favorite for WeRateDogs twitter account visitors with an average 31161.00 favorite signs followed by the Bedington terrier dog breed with 22942.17 as an average. 
-
+For this insight, I got that the Black‐and‐tan coongound dog breed is most favorite for the most favorite for WeRateDogs twitter account visitors with an average 31161.00 favorite signs followed by the Bedington terrier dog breed with 22942.17 as an average.<br>
 This third insight is not almost in the same way as the second insight where Standard poodie dog breed in the second place as most retweeted dog breed. This relationship between can be verified in the followed insight.
 
 ### Insight four: the correlation between favorite count and retweet count for dog breeds
@@ -52,12 +48,10 @@ To improve this insight I reuse the favorite mean and retweet mean for each dog 
 For 2223 visitors WeRateDogs Twitter account use rating numerator equal or more than 10 (541 for 12, 446 for 11, 437 for 10, 344 for 13). This notice improve that the visitors accept this humorous principle of rating. 
 
 ### Insight six: Variation of tweet_id count, favorit_count, retweet_count values during the year
-By using line chart to plotting favorite average and retweet average during the year (x axis) also adding bar chart for tweet count on same axis, I notice that the three variables don’t follow the same variation.
-
+By using line chart to plotting favorite average and retweet average during the year (x axis) also adding bar chart for tweet count on same axis, I notice that the three variables don’t follow the same variation.<br>
 As we can observe the number of tweets increase in November and December but the favorite and retweet average decrease, which is antithesis for other months where the number of tweets decrease. 
 
 ## Conclusions
-Even a dog breed is very popular for the most tweeters don’t mean is the most favorited or retweeted by other users. The selection of a preferable dog breed is up to others criteria, which need a depth analysis with more variables.
-
+Even a dog breed is very popular for the most tweeters don’t mean is the most favorited or retweeted by other users. The selection of a preferable dog breed is up to others criteria, which need a depth analysis with more variables.<br>
 In other side, the increase of tweets number do not mean the increase of the visitors reaction for the tweeted dog breed. It can be explained by confusion of visitors for choosing the preferable dog breed when the number of tweets increase or the rate of dog breed tweets increasing is greater than the rate of favorite and retweet average increasing.<br>
 Finally, the originality of humorist rating is what almost visitors prefer for rating the dogs, which mean is the asset of this twitter account.
