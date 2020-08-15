@@ -32,22 +32,28 @@ The final twitter_archive_master table contain 2223 observations with 13 columns
 
 ## Insights 
 ### Insight one: the most popular dog breed
+![](https://github.com/pxotmane/Wrangle-and-Analyze-Data/blob/master/images/popular_breed.png)<br><br>
 After analyzing 2223 observations got from the wrangled data process and plotting it, I notice that the Golden retriever dog breed is the popular dog breed inside the WeRateDogs community by 162 tweets.
 
 ### Insight two: the dog breed get the most high retweet
+![](https://github.com/pxotmane/Wrangle-and-Analyze-Data/blob/master/images/high_retweet_breed.png)<br><br>
 Performing a mean calculation for 10 high‐retweeted dog breeds, I got that the Standard poodie dog breed is the most retweeted with an average of 7563.67 retweet followed by the Bedington terrier dog breed by 7299.50 retweet. Which is not the same as the first insight.
 
 ### Insight three: the dog breed get the most high favorite counting
+![](https://github.com/pxotmane/Wrangle-and-Analyze-Data/blob/master/images/high_favorite_breed.png)<br><br>
 For this insight, I got that the Black‐and‐tan coongound dog breed is most favorite for the most favorite for WeRateDogs twitter account visitors with an average 31161.00 favorite signs followed by the Bedington terrier dog breed with 22942.17 as an average.<br>
 This third insight is not almost in the same way as the second insight where Standard poodie dog breed in the second place as most retweeted dog breed. This relationship between can be verified in the followed insight.
 
 ### Insight four: the correlation between favorite count and retweet count for dog breeds
+![](https://github.com/pxotmane/Wrangle-and-Analyze-Data/blob/master/images/retweet_favorite_correlation.png)<br><br>
 To improve this insight I reuse the favorite mean and retweet mean for each dog breed, after plotting this two variables by using scatter plot, I can notice that the favorite count and retweet are positively correlated in almost observations. Which appear logic for this kind of relationship.
 
 ### Insight five: the most used rating for all tweets
+![](https://github.com/pxotmane/Wrangle-and-Analyze-Data/blob/master/images/most_used_rate.png)<br><br>
 For 2223 visitors WeRateDogs Twitter account use rating numerator equal or more than 10 (541 for 12, 446 for 11, 437 for 10, 344 for 13). This notice improve that the visitors accept this humorous principle of rating. 
 
 ### Insight six: Variation of tweet_id count, favorit_count, retweet_count values during the year
+![](https://github.com/pxotmane/Wrangle-and-Analyze-Data/blob/master/images/variation_month.png)<br><br>
 By using line chart to plotting favorite average and retweet average during the year (x axis) also adding bar chart for tweet count on same axis, I notice that the three variables don’t follow the same variation.<br>
 As we can observe the number of tweets increase in November and December but the favorite and retweet average decrease, which is antithesis for other months where the number of tweets decrease. 
 
